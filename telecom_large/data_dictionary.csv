@@ -1,3 +1,39 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3fc8b63d54e3824b6ed297dc618dc24e8e61c645b6bcf79d1978efb609e6c453
-size 1734
+,Acronyms    ,Descriptions
+0,MOBILE_NUMBER,Customer phone number
+1,CIRCLE_ID,Telecom circle area to which the customer belongs to
+2,LOC,Local calls - within same telecom circle
+3,STD,STD calls - outside the calling circle
+4,IC,Incoming calls
+5,OG,Outgoing calls
+6,T2T,"Operator T to T, i.e. within same operator (mobile to mobile)"
+7,T2M    ,Operator T to other operator mobile
+8,T2O    ,Operator T to other operator fixed line
+9,T2F    ,Operator T to fixed lines of T
+10,T2C    ,Operator T to it’s own call center
+11,ARPU    ,Average revenue per user
+12,MOU    ,Minutes of usage - voice calls
+13,AON    ,Age on network - number of days the customer is using the operator T network
+14,ONNET   ,All kind of calls within the same operator network
+15,OFFNET    ,All kind of calls outside the operator T network
+16,ROAM,Indicates that customer is in roaming zone during the call
+17,SPL   ,Special calls
+18,ISD    ,ISD calls
+19,RECH    ,Recharge
+20,NUM    ,Number
+21,AMT    ,Amount in local currency
+22,MAX    ,Maximum
+23,DATA    ,Mobile internet
+24,3G    ,3G network
+25,AV    ,Average
+26,VOL    ,Mobile internet usage volume (in MB)
+27,2G    ,2G network
+28,PCK    ,Prepaid service schemes called - PACKS
+29,NIGHT    ,Scheme to use during specific night hours only
+30,MONTHLY    ,Service schemes with validity equivalent to a month
+31,SACHET   ,Service schemes with validity smaller than a month
+32,*.6    ,KPI for the month of June
+33,*.7    ,KPI for the month of July
+34,*.8    ,KPI for the month of August
+35,*.9    ,KPI for the month of September
+36,FB_USER,Service scheme to avail services of Facebook and similar social networking sites
+37,VBC    ,Volume based cost - when no specific scheme is not purchased and paid as per usage
