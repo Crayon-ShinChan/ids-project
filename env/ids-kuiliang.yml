@@ -1,0 +1,12 @@
+name: ids-kuiliang
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - scikit-learn
+  - imbalanced-learn
+  - pandas
+  - seaborn
+  - notebook
+prefix: /Users/leonz/opt/anaconda3/envs/py37
