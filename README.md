@@ -1,0 +1,17 @@
+## Creating Python environment for this project
+
+At the first time:
+
+1. Install [Anaconda](https://docs.anaconda.com/anaconda/install/) in your computer.
+2. If you are in Windows, open `Anaconda Prompt`. If you are in Mac, open `Terminal`.
+3. Use `cd` command to enter the project folder, i.e. the folder where the `workflow.ipynb` file is located.
+4. Create an environment from `ids-kuiliang.yml` which is the preset environment configuration file.
+  1. Run `conda env create -f ids-kuiliang.yml`.
+  2. Activate the environment by `conda activate ids-kuiliang`.
+5. Run code `jupyter notebook`.
+6. Find `workflow.ipynb` and open it.
+
+Next time you can use two simple commands to access this environment and `workflow.ipynb`
+
+1. `conda activate ids-kuiliang`.
+2. `jupyter notebook`.
