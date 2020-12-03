@@ -1,3 +1,9 @@
+## Clone this project
+
+1. If you are in Windows, open `Git Bash`. If you are in Mac, open `Terminal`.
+2. Run code `git clone https://github.com.cnpmjs.org/Crayon-ShinChan/ids-project.git`.
+3. Enter your username and password of Github to start clone.
+
 ## Creating Python environment for this project
 
 At the first time:
